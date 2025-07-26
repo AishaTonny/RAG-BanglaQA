@@ -1,0 +1,33 @@
+# 📚 RAG-BanglaQA
+
+This is a Multilingual Bangla-English Retrieval-Augmented Generation (RAG) based Question Answering (QA) system built using PDF input and HuggingFace Transformers.
+
+---
+
+## 📌 Features
+
+- ✅ Accepts **Bangla & English** questions
+- ✅ Extracts content from **Bangla HSC 1st Paper PDF**
+- ✅ Splits document into text chunks
+- ✅ Uses **FAISS** for vector-based semantic search
+- ✅ Uses **mrm8488/bert-multi-cased-finetuned-xquadv1** for QA
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- HuggingFace Transformers
+- SentenceTransformers
+- FAISS
+- PyPDF2
+
+---
+
+## 🚀 How to Run
+
+1. Clone or download the repository
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
